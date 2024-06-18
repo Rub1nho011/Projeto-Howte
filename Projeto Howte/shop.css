@@ -1,0 +1,33 @@
+main {
+    background-color: #4A3F3E;
+    padding-bottom: 20px;
+
+}
+
+.text-container {
+    background-color: #4A3F3E; /* Marrom escuro */
+    padding: 20px 40px;
+    font-family: 'UnifrakturCook', cursive;
+    font-size: 3em;
+    color: #fff;
+    text-align: center;
+   
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Espaço entre as imagens */
+    margin: 20px;
+    text-align: center;
+}
+
+.img1 {
+    background-color: #75524F;
+    border-radius: 10%;
+    border: #A15850, 5px;
+    margin: 5px; /* Reduzir a margem das imagens */
+    padding: 5px; /* Adicionar padding para controle do espaço interno */
+
+    
+}
