@@ -1,0 +1,79 @@
+main{
+    background-color: #4A3F3E;
+    padding-top: 100px
+   
+}
+.venda{
+    background-color: #4A3F3E;
+}
+
+.foto{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+    
+    background-color: #75524F;
+    margin-inline: 500px;
+    border-radius: 50px;
+    border: 9px solid #332A29;
+}
+.texto1{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #332A29;
+    margin-inline: 500px;
+    border-radius: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: whitesmoke;
+    
+}
+.preco{
+    text-align: center;
+    align-items: center;
+    color: whitesmoke;
+
+}
+.size{
+    color: whitesmoke;
+    text-align: center;
+    border: 3px solid #332A29;
+    margin-inline: 800px;
+    border-radius: 15px;
+}
+.tamanhos{
+    text-align: center;
+    text-decoration: none;
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0; 
+    display: flex; 
+    justify-content: center; 
+    gap: 30px; 
+    margin-bottom: 30px;
+}
+.tamanhos li{ 
+    font-size: 30px; 
+    background-color: #332A29;
+    color: whitesmoke;
+    border-radius: 15%;
+    width: 50px; 
+    height: 50px; 
+    align-items: center;
+}
+.comprar{
+    color: white;
+    text-decoration-color: white;
+    text-decoration: none;
+    text-align: center;
+    background-color: #332A29;
+    margin-inline: 750px;
+    padding-block: 10px;
+    align-items: center;
+    border-radius: 50px;
+    margin-bottom: 100px;
+}
+a{text-decoration: none;}

@@ -1,0 +1,40 @@
+main {
+    background-color: #4A3F3E;
+    padding-bottom: 20px;
+
+}
+
+.text-container {
+    background-color: #4A3F3E; 
+    padding: 20px 40px;
+    font-family: 'UnifrakturCook';
+    font-size: 200px;
+    color: whitesmoke;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 100px;
+}
+
+.img1 {
+    background-color: #75524F;
+    border-radius: 10%;
+    border: #A15850, 5px;
+    margin: 40px; 
+    padding: 5px; 
+    margin-inline: 0px;
+    width: 100%;
+}
+.img1 h2{
+    text-align: center;
+    color: whitesmoke;
+}
+
+a{
+    text-decoration: none;
+}
