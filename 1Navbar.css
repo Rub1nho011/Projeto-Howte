@@ -1,0 +1,60 @@
+.nav1{
+    
+    background-color: #332A29;
+    margin-right: 30px;
+    margin-left: 30px;
+    border-radius: 20%;
+    color: white;
+    justify-content: center;
+    align-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+   
+   
+    
+}
+.item{
+    align-content: center;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    text-decoration: none;
+   
+}
+header{
+    background-color: #75524F;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    
+    
+
+
+
+
+}
+header a{
+    text-decoration: none;
+}
+header h2{
+    font-family: 'UnifrakturCook', cursive;
+    
+}
+
+.direitos{
+    background-color: #75524F;
+    text-align: center;
+    color: whitesmoke;
+    padding: 20px;
+    margin: 0;
+    
+    
+    
+   
+
+    
+     
+
+}
