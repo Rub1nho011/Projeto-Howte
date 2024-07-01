@@ -1,0 +1,99 @@
+:root 
+{
+    --color-vermelhomaisescuro: #75524F;
+    --color-vermelhoescuro: #A15850;
+    --color-vermelhoclaro: #C95244;
+    --color-vermelho: #F53E2A;
+    --color-naoevermehlo: #4A3F3E;
+    --margin: 10px;
+
+
+}
+
+
+.inicio {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4A3F3E;
+    padding-bottom: 50px;
+}
+
+.arredondamento{
+
+border-radius: 5%;
+
+}
+
+.container1 {
+    display: flex;
+    background-color: #4A3F3E;
+    padding-bottom: 50px;
+    justify-content: center;
+    gap: 300px;
+    
+    
+}
+
+.texto{
+    color: whitesmoke;
+    font-size: 40px;
+    background-color: #332A29;
+    margin-top: 100px;
+    padding: 50px;
+    border-radius: 15px;
+
+   
+  
+}
+
+
+main {
+  background-color: #4A3F3E;
+}
+
+.titulo{
+    background-color: #332A29;
+    text-align: center;
+    color: black;
+    padding: 40px;
+    margin: 0%;
+    border: 10px solid #332A29;
+    max-width: fit-content;
+    margin: 0 auto; 
+    border-radius: 15%;
+    padding-top: 50px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    
+
+
+}
+.fundo{
+    background-color: #4A3F3E;
+    padding-top: 50px;
+}
+
+header{
+    background-color: #332A29;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    
+    
+
+
+
+
+}
+
+
+.loginModal{
+    background-color: #4A3F3E;
+}
+
+.modal{
+   color: #332A29;
+}
+

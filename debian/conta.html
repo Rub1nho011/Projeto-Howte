@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Title</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+        <link rel="stylesheet" href="1Navbar.css">
+        <link rel="stylesheet" href="conta.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap">
+
+        <!-- Bootstrap CSS v5.2.1 -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+            crossorigin="anonymous"
+        />
+    </head>
+
+    <body>
+        <header>
+            <li class="nav">
+                <a class="nav1" href="shop.html">
+                 <h4 class="item" role="button">shop</h4></a>
+                 <a class="nav1"  href="lookbook.html">
+                 <h4 class="item" role="button">lookbook</h4></a>   
+                  <a class="nav1"  href="main.html"><img class="img" role="button" src="Imagens/logo.png" alt=""  width="90px" height="70px"> </div></a>
+                 <a class="nav1"  href="contact.html">
+                 <h4 class="item"  role="button">contact </h4></a>
+                 <div class="item"><a class="nav1" href="conta.html"> <img role="button" src="Imagens/icone-perfil.png" alt="" width="62px" height="66px" > </a></div>
+                 </li>
+        </header>
+        <main>
+            <div class="container">
+            <h1 style="padding: 15px;font-size: 70px;" class="login">Login</h1>
+            <h3 style="color: whitesmoke;">Email:</h3>
+            <div style="margin-bottom: 20px;" ><textarea class="email" style="width: 300px; " placeholder="Digite seu E-mail aqui:" id=""></textarea></div>
+            <h3 style="color: whitesmoke;">Password:</h3>
+            <textarea class="email" style="width: 200px;" placeholder="Digite a senha aqui:" id="hiddenTextarea"></textarea>
+            <h6 style="text-decoration: underline; color: whitesmoke; margin-top: 30px;font-size: 12px;">Forgot Password? click here. </h6>
+            <a style="text-decoration: none;" href="main.html"><h2 class="enviar" style="margin-bottom: 50px;padding: 10px;">Enter</h2></a>
+            <h6 style="color: whitesmoke; text-decoration: underline;">Don't have an account?</h6>
+            <a style="text-decoration: none; margin-bottom: 150px;" href="criar-conta.html"><h4 class="enviar" style="width: 200px;height: 40px;align-content: center;">Create Now!</h4></a>
+            </div>
+        </main>
+        <footer>
+            <h4 class="direitos" >Copyright © 2024 Howte Company  – Todos os direitos reservados.</h4>
+        </footer>
+        <!-- Bootstrap JavaScript Libraries -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+            crossorigin="anonymous"
+        ></script>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+            integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+            crossorigin="anonymous"
+        ></script>
+        <script>
+            const textarea = document.getElementById('hiddenTextarea');
+            let realValue = '';
+    
+            textarea.addEventListener('input', (event) => {
+                const currentLength = textarea.value.length;
+                const realLength = realValue.length;
+    
+                if (currentLength > realLength) {
+                    // Adiciona novos caracteres ao valor real
+                    realValue += textarea.value.slice(realLength);
+                } else if (currentLength < realLength) {
+                    // Remove caracteres do valor real
+                    realValue = realValue.slice(0, currentLength);
+                }
+    
+                // Atualiza o conteúdo do textarea para mostrar asteriscos
+                textarea.value = '*'.repeat(currentLength);
+            });
+            </script>
+    </body>
+</html>

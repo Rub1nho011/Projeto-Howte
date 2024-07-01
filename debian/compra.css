@@ -1,0 +1,104 @@
+main{
+    background-color: #4A3F3E;
+    padding-top: 100px
+   
+}
+body, html {
+    margin: 0;
+    padding: 0;}
+.venda{
+    background-color: #4A3F3E;
+}
+
+.foto{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+    background-color: #75524F;
+    margin-inline: 500px;
+    border-radius: 50px;
+    border: 9px solid #332A29;
+    text-align: center;
+}
+.texto1{
+    
+    align-content: center;
+    text-align: center;
+    background-color: #332A29;
+    margin-inline: 500px;
+    border-radius: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: whitesmoke;
+    
+}
+.preco{
+    text-align: center;
+    align-items: center;
+    color: whitesmoke;
+
+}
+.size{
+    color: white;
+    text-decoration-color: white;
+    text-decoration: none;
+    text-align: center;
+    border: 5px solid #332A29;
+   
+   margin-inline: 100px;
+    padding-block: 10px;
+    align-items: center;
+    border-radius: 50px;
+    margin-bottom: 30px;
+}
+.tamanhos{
+    text-align: center;
+    text-decoration: none;
+    list-style-type: none; /* Remove os pontos da lista */
+    padding: 0; /* Remove o padding padrão */
+    margin: 0; /* Remove a margem padrão */
+    display: flex; /* Usa flexbox para alinhar os itens */
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    gap: 30px; /* Espaçamento entre os itens */
+    margin-bottom: 30px;
+    align-items: center;
+
+    
+
+}
+.tamanhos li{
+    display: inline-block; /* Coloca os elementos lado a lado */
+   
+    font-size: 30px; /* Tamanho da fonte */
+    background-color: #332A29;
+    color: whitesmoke;
+    border-radius: 15%;
+    width: 50px; /* Largura fixa */
+    height: 50px; /* Altura fixa */
+    align-items: center;
+    
+    
+}
+.comprar{
+    color: white;
+    text-decoration-color: white;
+    text-decoration: none;
+    text-align: center;
+    background-color: #332A29;
+   margin-inline: 100px;
+    padding-block: 10px;
+    align-items: center;
+    border-radius: 50px;
+    margin-bottom: 100px;
+}
+a{text-decoration: none;}
+
+.centered-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    
+}
